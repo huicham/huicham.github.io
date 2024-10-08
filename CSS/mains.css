@@ -1,0 +1,150 @@
+
+body {
+  margin: 0;
+}
+
+.profile
+{
+  width: 100px; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.title
+{
+  color :rgb(94, 22, 228); 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px; 
+}
+
+.introduce
+{
+  font-size: small; color: beige; text-align: left;
+}
+
+.box {
+  width: 200px;
+  background-color: cadetblue;
+  margin: 10px;
+  padding: 40px;  
+  border-radius: 15px;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+  font-size: 10px;
+  color: beige;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.left-side {
+  width: 20%;
+  height: 400px;
+  background: rgb(253, 198, 178);
+  display: inline-block;
+  vertical-align: bottom;
+  /* float: left; */
+}
+
+.right-side {
+  width: 80%;
+  height: 400px;
+  background: burlywood;
+  display: inline-block;
+  /* float: left; */
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: green;
+  /* clear: both; */
+}
+
+td, th{
+  vertical-align: middle;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cart-background {
+  background-color: #c2d3de;
+  width: 100%;
+  padding: 30px;
+}
+
+.cart-table td {
+  border-bottom: 1px solid #c2d3de;
+}
+
+.cell-width {
+  width: 100px;
+}
+
+.bottom-sub {
+  background-color: #eee;
+  padding: 30px;
+}
+
+.payment-button {
+  background-color: rgba(4, 21, 94, 0.753);
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.payment-button:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.payment-button:focus {
+  background-color: aquamarine;
+}
+
+.payment-button:active {
+  background-color: antiquewhite;
+}
+
+.link-hofa {
+  text-decoration: none;
+}
+
+.link-hofa:link{
+  color: red;
+}
+
+.link-hofa:visited {
+  color: yellow;
+}
+
+.main-btn {
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}

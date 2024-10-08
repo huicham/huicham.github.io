@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+.main-background {
+  background-image: linear-gradient(to bottom, #499add, #4e61c0);
+  height: 550px;
+  padding: 20px;
+  color: white;
+}
+
+.main-comtainer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main-text {
+  float: left;
+  margin-top: 50px;
+}
+
+.main-iphone {
+  width: 400px;
+  float: right;
+  margin-top: 95px;
+}
+
+.btn {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-family: 'nanumsquare';
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-black {
+  background: #444;
+  color: white;
+}
+
+.show-project {
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.offer-box{
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(73, 98, 182);
+  color: white;
+}
+
+.offer-title{
+  text-align: center;
+  color: white;
+}
+
+.offer-iconbx{
+  width: 100%; 
+  max-width: 900px; 
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.offer-iconbx i {
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  text-align: center;
+  padding-top: 43px;
+  font-size: 40px;
+  color: rgb(73, 98, 182);
+  box-sizing: border-box; 
+}
+.offer-iconbx div {
+  width: 25%;
+  float: left;
+  padding: 20px;
+}
+
+
+.portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.portfolio-item1{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: url(../Landingpage/portfolio-1.jpg);
+  
+}
+
+.portfolio-container {
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.portfolio-text {
+  color: white;
+  padding: 50px;
+  width: 100%;
+}
+
+.white-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0px solid white;
+  transition: 1s;
+}
+
+.white-box:hover {
+  border : 30px solid white;
+}
+
+@media screen and (max-width : 929px) {
+  .main-iphone {
+    width: 260px;
+    display: block;
+    float: none;
+    margin: auto;
+    margin-top: 42px;
+  }
+  .main-text {
+    float: none;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .offer-iconbx div {
+    width: 100%;
+    float: none;
+  }
+
+  .portfolio-item1{
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat ;
+  }
+  
+}

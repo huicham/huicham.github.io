@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.explain-container {  
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.explain-container div{
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-size: 30px;
+}
+
+@media screen and (max-width : 1200px) {
+  .explain-container div{
+    width: 50%;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .explain-container div{
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
